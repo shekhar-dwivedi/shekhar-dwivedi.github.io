@@ -16,11 +16,9 @@ nav{
     margin: 0px;
     position: fixed;
     font: 17px solid;
-    height: 60px;
+    height: 12%;
     width: 100%;
     top: 0%;
-    background-color: #000000;
-    opacity: 70%;
 }
 /* nav ul is for positioning  */
 nav ul{
@@ -348,6 +346,9 @@ textarea{
     }
 }
 @media only screen and  (max-width: 425px){
+    nav{
+        height: 9%;
+    }
     nav li{
         font-size: 70%;
         padding: 0 3%;
@@ -362,6 +363,7 @@ textarea{
         font-size: 85%;
     }
     .headings{
+        padding-top: 15%;
         font-size: 250%;
     }
     .abouttext{
@@ -378,6 +380,9 @@ textarea{
     .skills{
         display: flex;
         flex-direction: row;
+    }
+    .projtext{
+        padding-bottom: 20px;
     }
     .container3{
         flex-direction: column;
