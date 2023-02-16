@@ -169,6 +169,47 @@ justify-content: center;
     width: 80%;
     height: auto;
 }
+/* Achievements Section */
+.achievementssec {
+    height: auto;
+    padding: 3% 0;
+  }
+  .head {
+    text-align: center;
+    font-size: 350%;
+  }
+  .achievement {
+    width: 8%;
+  }
+  .posntitle{
+      font-weight: 700;
+  }
+  .posndes{
+      font-weight: 300;
+  }
+  #kliquelink{
+      text-decoration: underline;;
+      color: #ffff;
+  }
+  .achbox{
+    border: 3px solid white;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0 5%;
+    margin-top: 2%;
+    transition: transform 0.5s;
+    padding: 2%;
+  }
+  .achbox:hover {
+    transform: scale(1.04);
+    background-image: linear-gradient(to right, #256FBB, #DF0EDF);
+    color: white;
+  }
+  .lastachbox{
+    margin-bottom: 6%;
+  }
 /* Projects Section */
 .projcont{
     display: flex;
@@ -265,7 +306,7 @@ textarea{
     border-radius: 8px;
     align-items: center;
     background-color: #1663f7;
-    border: none;
+    border: #1663f7;
     transition: transform 0.2s;
 
 }
@@ -387,4 +428,10 @@ textarea{
     .container3{
         flex-direction: column;
     }
+.achbox{
+    flex-direction: column;
+}
+.achievement{
+    width: 30%;
+}
 }
