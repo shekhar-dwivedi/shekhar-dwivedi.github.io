@@ -393,7 +393,7 @@ hr {
 }
 /* *********************Projects************************** */
 .card{
-    background: url(./Pictures/project_card_bg.png);
+    background: url(./tree/main/Pictures/project_card_bg.png);
 }
 .projects{
     display: flex;
@@ -402,7 +402,7 @@ hr {
 .project-card{
     border-radius: 12px;
     width: 25%;
-    background: url(./Pictures/project_card_bg2.png);
+    background: url(./tree/main/Pictures/project_card_bg2.png);
     font-family: 'Inter';
 }
 .project-card-img{
